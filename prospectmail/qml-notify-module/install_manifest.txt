@@ -1,0 +1,2 @@
+/usr/local/qml-plugins/Pparent/Notifications/libNotificationsPlugin.so
+/usr/local/qml-plugins/Pparent/Notifications/qmldir

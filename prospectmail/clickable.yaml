@@ -5,6 +5,8 @@ skip_review: false
 kill: prospect-mail
 
 build:
+- cd $ROOT/ && cmake . && make 
+- echo "1"
 - gcc $ROOT/utils/mkdir.c -o $ROOT/utils/mkdir
 - gcc $ROOT/utils/firstinstall.c -o $ROOT/utils/firstinstall
 - rm -rf ${ROOT}/squashfs-root/
@@ -27,12 +29,17 @@ build:
 - cp /usr/lib/aarch64-linux-gnu/libfuse.so.2 $INSTALL_DIR/lib/aarch64-linux-gnu/
 - cp /usr/lib/aarch64-linux-gnu/libfuse.so.2 $INSTALL_DIR/lib/aarch64-linux-gnu/libfuse.so
 - cp /usr/bin/notify-send $INSTALL_DIR/bin
+- cp $ROOT/notify $INSTALL_DIR/bin
 install_root_data:
 - manifest.json
 - Main.qml
 - launcher_prospect.sh
+- pushexec
+- notify
 - prospectmail.apparmor
 - prospectmail.desktop
+- prospect-push.apparmor
+- prospect-push-helper.json
 - assets
 - utils
 dependencies_host: ["libnotify-bin","notify-osd","xdotool","psmisc","g++","jq","libgtk2.0-dev","libgtk-3-dev","libmaliit-glib-dev","build-essential","meson","libtool","m4","automake","squashfs-tools","qemu-user-static" , "tree" , "patchelf", "git", "jq", "curl", "build-essential", "python3", "python3-pip", "libudev-dev", "dpkg", "moreutils","libssl-dev", "libsqlite3-dev", "libcrypto++-dev", "libsqlcipher-dev", "npm", "git-lfs", "execstack", "imagemagick", "librsvg2-bin", "debhelper-compat", "xauth", "xvfb",'squashfs-tools']

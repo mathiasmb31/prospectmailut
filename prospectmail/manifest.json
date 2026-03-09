@@ -1,15 +1,19 @@
 {
-    "name": "prospectmail.mathias",
-    "description": "prospectmail",
-    "architecture": "@CLICK_ARCH@",
-    "title": "prospect",
-    "hooks": {
-        "prospectmail": {
-            "apparmor": "prospectmail.apparmor",
-            "desktop":  "prospectmail.desktop"
-        }
+  "name": "prospectmail.mathias",
+  "description": "prospectmail",
+  "architecture": "@CLICK_ARCH@",
+  "title": "prospect",
+  "hooks": {
+    "prospectmail": {
+      "apparmor": "prospectmail.apparmor",
+      "desktop": "prospectmail.desktop"
     },
-    "version": "0.6.0.10",
-    "maintainer": "mathias <email@domain.org>",
-    "framework" : "@CLICK_FRAMEWORK@"
+    "push": {
+      "apparmor": "prospect-push.apparmor",
+      "push-helper": "prospect-push-helper.json"
+    }
+  },
+  "version": "0.6.0.10",
+  "maintainer": "mathias <email@domain.org>",
+  "framework": "@CLICK_FRAMEWORK@"
 }

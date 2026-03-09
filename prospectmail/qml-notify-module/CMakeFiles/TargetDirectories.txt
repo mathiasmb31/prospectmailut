@@ -1,0 +1,9 @@
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/NotificationsPlugin.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/edit_cache.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/rebuild_cache.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/list_install_components.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/install.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/install/local.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/install/strip.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/NotificationsPlugin_autogen_timestamp_deps.dir
+/home/mathias/Desktop/prospectmailut/prospectmail/qml-notify-module/CMakeFiles/NotificationsPlugin_autogen.dir

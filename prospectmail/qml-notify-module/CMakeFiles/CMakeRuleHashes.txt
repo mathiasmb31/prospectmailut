@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+94de9ed6fdf8930690ba54edef7b0686 CMakeFiles/NotificationsPlugin_autogen
+94de9ed6fdf8930690ba54edef7b0686 CMakeFiles/NotificationsPlugin_autogen_timestamp_deps
+e6fa8d9624032668307764bed58dffeb NotificationsPlugin_autogen/timestamp

@@ -35,6 +35,7 @@ echo "pid of actual process is :"$$
 echo $$ >/home/phablet/.config/prospectmail.mathias/data/__prospect.pid
 #Open dummy qt gui app to realease lomiri from its waiting
 (
+	  bin/notify
           utils/sleep.sh
           $PWD/bin/xdg-open-qt
 ) &

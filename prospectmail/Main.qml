@@ -26,7 +26,13 @@ MainView {
         request.open("PUT", fileUrl, false);
         request.send(text);
         return request.status;
+}
+
+NotificationHelper {
+       id: helper
+       push_app_id:prospectmail.mathias_prospect
     }
+
 
     property int loopdone: 200
     property string todozoomfile: "/home/phablet/.config/prospectmail.mathias/zoomtodo"
